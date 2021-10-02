@@ -44,6 +44,6 @@ section .container .navbar a{
 }
 
 .title-image{
-  width: 60%;
+  width: 50%;
   transform: rotate(25deg);
 }
