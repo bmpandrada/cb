@@ -1,6 +1,9 @@
 body {
   font-family: Virgula Vulgaris;
 }
+span{
+    color: var(--bs-yellow);
+}
 
 #title {
   background-color: #800000;
