@@ -8,20 +8,22 @@ body{
   background-color:#800000;
   color: #fff;
 }
-
+section .container{
+  padding: 3% 2%;
+}
 h1{
   font-family: 'Montserrat-black';
   font-size: 4rem;
   line-height: 1.5;
 
 }
-.container .navbar {
+/*.container .navbar {
     padding-bottom: 4rem;
-}
+}*/
 
 .navbar .navbar-brand{
   font-family: 'Montserrat-black';
-  font-size: 3.5rem;
+  font-size: 3rem;
   line-height: 1.5;
 
 
@@ -38,7 +40,6 @@ section .container .navbar a{
 }
 .download-btn{
   margin: 5% 3% 5% 0;
-
 }
 
 .title-image{
