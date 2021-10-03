@@ -9,7 +9,7 @@ body{
   color: #fff;
 }
 section .container{
-  padding: 2% 15%;
+  padding: 1% 3% 5% 3%;
 }
 h1{
   font-family: 'Montserrat-black';
@@ -43,6 +43,7 @@ section .container .navbar a{
 }
 
 .title-image{
-  width: 65%;
+  width: 60%;
   transform: rotate(25deg);
+
 }
