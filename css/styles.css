@@ -75,7 +75,7 @@ section .container .navbar a {
 }
 
 #features {
-  padding: 7% 15%;
+  padding: 3% 15%;
   text-align: center;
 }
 
@@ -136,7 +136,7 @@ section .container .navbar a {
 }
 #shop{
   background-color: maroon;
-  padding: 7% 15%;
+  padding: 3% 15%;
 }
 .shop__thumb{
   margin: 0;
