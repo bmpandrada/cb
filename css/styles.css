@@ -71,7 +71,6 @@ section .container .navbar a {
 
 .title-image {
   width: 100%;
-  overflow: hidden;
 }
 
 #features {
