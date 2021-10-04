@@ -11,7 +11,7 @@ span{
 
 }
 #title .start{
-  margin: 5em 0 0;
+  margin: 2em 0 0;
 }
 
 #title .container-fluid {
@@ -36,6 +36,7 @@ span{
   text-align: center;
   margin-bottom: 1em;
 }
+
 
 p {
   color: #8f8f8f;
@@ -121,4 +122,33 @@ section .container .navbar a {
 .about-title p {
   font-size: 1em;
   line-height: 1.5;
+}
+/*shop*/
+
+
+.shopy h2{
+  color: #ffffff;
+  font-family: 'virgula-vulgaris';
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 2em;
+
+}
+#shop{
+  background-color: maroon;
+  padding: 3% 15%;
+}
+.shop__thumb{
+  margin: 0;
+}
+
+.shop-thumb__img img{
+  width: 100%;
+
+}
+.clear{
+  margin-bottom: 3em;
+}
+.shop-thumb__title{
+margin-top: 0;
 }
