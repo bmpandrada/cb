@@ -173,7 +173,7 @@ section .container .navbar a {
 
   }
 }
-@media (max-width: 470px) {
+@media (max-width:375px) {
   #title h1 {
     font-family: 'virgula-vulgaris';
     line-height: 1.5;
@@ -205,7 +205,7 @@ section .container .navbar a {
 
   }
   .navbar-brand .navbar-icon{
-    width: 3.5rem;
+    width: 3em;
   }
 
 
