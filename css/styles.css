@@ -134,6 +134,7 @@ section .container .navbar a {
 }
 .pic-about{
   margin: auto;
+  text-align: center;
 }
 /*shop*/
 
@@ -204,7 +205,7 @@ section .container .navbar a {
 
   }
   .navbar-brand .navbar-icon{
-    width: 4em;
+    width: 3.5rem;
   }
 
 
