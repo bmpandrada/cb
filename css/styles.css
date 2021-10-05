@@ -166,3 +166,35 @@ section .container .navbar a {
 
   }
 }
+@media (max-width: 470px) {
+  #title h1 {
+    font-family: 'virgula-vulgaris';
+    line-height: 1.5;
+    font-size: 2em;
+  }
+
+  #testimonials h2 {
+    font-family: 'virgula-vulgaris';
+    font-size: 1rem;
+    line-height: 1;
+  }
+
+  #about h2 {
+    font-size: 1em;
+    font-family: 'virgula-vulgaris';
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  .title-image {
+    width: 50%;
+  }
+  .about-img-img {
+    width: 50%;
+    border-radius: 10%;
+
+  }
+  .shop-thumb__img img{
+    width: 100%;
+
+  }
+}
