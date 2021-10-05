@@ -115,6 +115,7 @@ section .container .navbar a {
   width: 100%;
   border-radius: 10%;
 
+
 }
 
 .about-title {
@@ -126,6 +127,9 @@ section .container .navbar a {
 .about-title p {
   font-size: 1em;
   line-height: 1.5;
+}
+.pic-about{
+  margin: auto;
 }
 /*shop*/
 
@@ -140,18 +144,21 @@ section .container .navbar a {
 #shop{
   background-color: maroon;
   padding: 3% 15%;
+
 }
 .shop__thumb{
-  margin: 0;
+
+  margin: auto;
+  width: 50%;
 }
 
 .shop-thumb__img img{
   width: 100%;
 
+
+
 }
-.clear{
-  margin-bottom: 3em;
-}
+
 
 
 
@@ -169,7 +176,7 @@ section .container .navbar a {
   #title h1 {
     font-family: 'virgula-vulgaris';
     line-height: 1.5;
-    font-size: 2em;
+    font-size: 1em;
   }
 
   #testimonials h2 {
@@ -179,7 +186,7 @@ section .container .navbar a {
   }
 
   #about h2 {
-    font-size: 2em;
+    font-size: 1em;
     font-family: 'virgula-vulgaris';
     text-align: center;
     margin-bottom: 1em;
@@ -188,7 +195,7 @@ section .container .navbar a {
     width: 100%;
   }
   .about-img-img {
-    width: 100%;
+    width: 50%;
     border-radius: 10%;
 
   }
@@ -197,7 +204,7 @@ section .container .navbar a {
 
   }
   .navbar-icon{
-    width: 3.5em;
+    width: 2em;
   }
 
 
