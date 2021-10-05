@@ -198,16 +198,14 @@ section .container .navbar a {
   }
   .about-img-img {
     width: 50%;
-    border-radius: 10%;
+    Text-align: center;
 
   }
   .shop-thumb__img img{
     width: 100%;
 
   }
-  .navbar-brand .navbar-icon{
+  .navbar-icon{
     width: 2.5em;
   }
-
-
 }
