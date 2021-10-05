@@ -129,7 +129,6 @@ section .container .navbar a {
 }
 /*shop*/
 
-
 .shopy h2{
   color: #ffffff;
   font-family: 'virgula-vulgaris';
@@ -180,16 +179,16 @@ section .container .navbar a {
   }
 
   #about h2 {
-    font-size: 1em;
+    font-size: 2em;
     font-family: 'virgula-vulgaris';
     text-align: center;
     margin-bottom: 1em;
   }
   .title-image {
-    width: 50%;
+    width: 100%;
   }
   .about-img-img {
-    width: 50%;
+    width: 100%;
     border-radius: 10%;
 
   }
@@ -197,4 +196,9 @@ section .container .navbar a {
     width: 100%;
 
   }
+  .navbar-icon{
+    width: 3.5em;
+  }
+
+
 }
