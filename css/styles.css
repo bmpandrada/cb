@@ -120,9 +120,6 @@ section .container .navbar a {
   text-align: center;
 
 }
-.pic-about{
-  text-align: center;
-}
 .about-title {
   text-align:center;
 }
@@ -198,7 +195,6 @@ section .container .navbar a {
   }
   .about-img-img {
     width: 50%;
-    Text-align: center;
 
   }
   .shop-thumb__img img{
