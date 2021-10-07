@@ -1,4 +1,7 @@
 body {
+  Margin: 0;
+  Padding: 0;
+  box-sizing: border-box;
   font-family: Virgula Vulgaris;
 }
 span{
