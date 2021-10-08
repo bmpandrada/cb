@@ -205,7 +205,7 @@ section .container .navbar a {
 
   }
   .navbar-brand{
-    width: 50%;
+    width: 30%;
     padding-right: 1rem;
   }
 }
