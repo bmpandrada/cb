@@ -205,7 +205,6 @@ section .container .navbar a {
 
   }
   .navbar-brand{
-    width: 3em;
-    margin-right: 2rem;
+    width: 100%;
   }
 }
