@@ -75,10 +75,6 @@ section .container .navbar a {
   margin: 5% 3% 5% 0;
 }
 
-.title-image {
-  width: 100%;
-}
-
 #features {
   padding: 3% 15%;
   text-align: center;
