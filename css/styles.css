@@ -26,6 +26,9 @@ span{
   line-height: 1.5;
   font-size: 2em;
 }
+.title-image{
+width: 100%;
+}
 
 #testimonials h2 {
   font-family: 'virgula-vulgaris';
