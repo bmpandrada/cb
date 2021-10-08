@@ -204,7 +204,7 @@ section .container .navbar a {
     width: 100%;
 
   }
-  .navbar-icon{
-    width: 2.5em;
+  .navbar-brand{
+    width: 50%;
   }
 }
