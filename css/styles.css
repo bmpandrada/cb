@@ -1,210 +1,217 @@
 body {
-  Margin: 0;
-  Padding: 0;
-  box-sizing: border-box;
-  font-family: Virgula Vulgaris;
+    font-family: Virgula Vulgaris;
 }
-span{
+
+span {
     color: var(--bs-yellow);
 }
 
 #title {
-  background-color: #800000;
-  color: #fff;
-
+    background-color: #800000;
+    color: #fff;
 }
-.start{
-  margin: 1em 0 0;
+
+.start {
+    margin: 1em 0 0;
 }
 
 #title .container-fluid {
-  padding: 3% 15%;
+    padding: 3% 15%;
 }
 
 #title h1 {
-  font-family: 'virgula-vulgaris';
-  line-height: 1.5;
-  font-size: 2em;
-}
-.title-image img{
-width: 50%;
+    font-family: 'virgula-vulgaris';
+    line-height: 1.5;
+    font-size: 2em;
 }
 
 #testimonials h2 {
-  font-family: 'virgula-vulgaris';
-  font-size: 3rem;
-  line-height: 1.5;
+    font-family: 'virgula-vulgaris';
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 #about h2 {
-  font-size: 3em;
-  font-family: 'virgula-vulgaris';
-  text-align: center;
-  margin-bottom: 1em;
+    font-size: 3em;
+    font-family: 'virgula-vulgaris';
+    text-align: center;
+    margin-bottom: 1em;
 }
-
 
 p {
-  color: #8f8f8f;
+    color: #8f8f8f;
 }
+
 
 /*.container .navbar {
     padding-bottom: 4rem;
 }*/
-.navbar .navbar-brand {
-  font-family: 'Montserrat-black';
-  font-size: 3rem;
-  line-height: 1.5;
 
+.navbar .navbar-brand {
+    font-family: 'Montserrat-black';
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
-
 section .container .navbar a {
-  color: var(--bs-yellow);
-
+    color: var(--bs-yellow);
 }
 
 .nav-item {
-  padding: 0 18px;
+    padding: 0 18px;
 }
 
 .nav-link {
-  font-size: 1.2rem;
-  font-family: 'Montserrat-black';
-  text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Montserrat-black';
+    text-align: center;
 }
 
 .download-btn {
-  margin: 5% 3% 5% 0;
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 100%;
 }
 
 #features {
-  padding: 3% 15%;
-  text-align: center;
+    padding: 3% 15%;
+    text-align: center;
 }
-.feature-box{
-  padding: 4.5%;
+
+.feature-box {
+    padding: 4.5%;
 }
 
 .icon {
-  color: var(--bs-yellow);
-  margin-bottom: 1rem;
+    color: var(--bs-yellow);
+    margin-bottom: 1rem;
 }
 
 .icon:hover {
-  color: #800000;
+    color: #800000;
 }
 
+
 /*testimonial*/
+
 #testimonials {
-  text-align: center;
-  background: maroon;
-  color: #fff;
+    text-align: center;
+    background: maroon;
+    color: #fff;
 }
 
 .testimonial-image {
-  width: 15%;
-  border-radius: 20%;
-  margin: 1.666em
+    width: 15%;
+    border-radius: 20%;
+    margin: 1.666em
 }
 
 .carousel-item {
-  padding: 7% 15%;
+    padding: 7% 15%;
 }
 
 #about {
-  padding: 5% 15%;
+    padding: 5% 15%;
 }
 
 .about-img-img {
-  width: 100%;
-  border-radius: 10%;
-  text-align: center;
+    width: 100%;
+    border-radius: 10%;
+}
 
+.pic-about {
+    text-align: center;
 }
+
 .about-title {
-  text-align:center;
+    text-align: center;
 }
-.container .about-title{
-  width: 100%;
+
+.container .about-title {
+    width: 100%;
 }
+
 .about-title p {
-  font-size: 1em;
-  line-height: 1.5;
+    font-size: 1em;
+    line-height: 1.5;
 }
-.pic-about{
-  margin: auto;
-  text-align: center;
+
+.pic-about {
+    margin: auto;
+    text-align: center;
 }
+
+
 /*shop*/
 
-.shopy h2{
-  color: #ffffff;
-  font-family: 'virgula-vulgaris';
-  font-size: 3em;
-  text-align: center;
-  margin-bottom: 2em;
-
-}
-#shop{
-  background-color: maroon;
-  padding: 5% 15%;
-
-}
-.shop__thumb{
-
-  margin: auto;
-  width: 50%;
+.shopy h2 {
+    color: #ffffff;
+    font-family: 'virgula-vulgaris';
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 2em;
 }
 
-.shop-thumb__img img{
-  width: 100%;
+#shop {
+    background-color: maroon;
+    padding: 5% 15%;
 }
 
-.navbar{
-display:inline;
+#shop .shop-thumb__img {
+    margin: 3em 0;
 }
 
+.shop__thumb {
+    width: 100%;
+    margin: auto;
+}
+
+.shop-thumb__img img {
+    width: 100%;
+}
 
 @media (max-width:1028) {
-  #title {
-    text-align: center;
-  }
-  .shop-thumb__img img, .about-img{
-    width: 50%;
-
-  }
+    #title {
+        text-align: center;
+    }
+    .shop-thumb__img img,
+    .about-img {
+        width: 50%;
+    }
 }
-@media (max-width:470px) {
-  #title h1 {
-    font-family: 'virgula-vulgaris';
-    line-height: 1.5;
-    font-size: 2em;
-  }
 
-  #testimonials h2 {
-    font-family: 'virgula-vulgaris';
-    font-size: 2rem;
-    line-height: 1;
-  }
-
-  #about h2 {
-    font-size: 2em;
-    font-family: 'virgula-vulgaris';
-    text-align: center;
-    margin-bottom: 1em;
-  }
- 
-  
-  .about-img-img {
-    width: 50%;
-
-  }
-  .shop-thumb__img img{
-    width: 100%;
-
-  }
-  .navbar-brand{
-    width: 25%;
-  }
+@media (max-width:475px) {
+    #title h1 {
+        font-family: 'virgula-vulgaris';
+        line-height: 1;
+        font-size: 1.4em;
+        text-align: center;
+    }
+    #testimonials h2 {
+        font-family: 'virgula-vulgaris';
+        font-size: 2rem;
+        line-height: 1;
+    }
+    #about h2 {
+        font-size: 2em;
+        font-family: 'virgula-vulgaris';
+        text-align: center;
+        margin-bottom: 1em;
+    }
+    .title-image {
+        width: 100%;
+    }
+    .about-img-img {
+        width: 50%;
+        border-radius: 10%;
+    }
+    .shop-thumb__img img {
+        width: 100%;
+    }
+    .navbar-brand .navbar-icon {
+        width: 11.1rem;
+        padding: 0 auto;
+    }
 }
