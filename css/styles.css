@@ -203,6 +203,12 @@ section .container .navbar a {
     color: #ffffff;
 }
 
+.social-icon {
+    margin: 1em .9em;
+    color: var(--bs-white);
+    ;
+}
+
 @media (max-width:1028) {
     #title {
         text-align: center;
