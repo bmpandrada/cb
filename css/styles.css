@@ -9,7 +9,6 @@ span {
 #title {
     background-color: #800000;
     color: #fff;
-    height: 100vh;
 }
 
 .start {
@@ -24,7 +23,7 @@ span {
     font-family: 'virgula-vulgaris';
     line-height: 1.5;
     font-size: 2em;
-    margin: .5em 0;
+    margin: 1em 0;
 }
 
 #testimonials h2 {
@@ -186,9 +185,13 @@ section .container .navbar a {
 }
 
 @media (max-width:475px) {
+    #title {
+        background-color: #800000;
+        color: #fff;
+    }
     #title h1 {
         font-family: 'virgula-vulgaris';
-        line-height: 1;
+        line-height: 2;
         font-size: 1.4em;
         text-align: center;
     }
@@ -205,6 +208,9 @@ section .container .navbar a {
     }
     .title-image {
         width: 100%;
+        text-align: center;
+        margin: 1em 0;
+        z-index: 12;
     }
     .about-img-img {
         width: 50%;
