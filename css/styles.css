@@ -39,6 +39,20 @@ span {
     margin-bottom: 1em;
 }
 
+#cta {
+    padding: 3% 15%;
+    text-align: center;
+    color: var(--bs-yellow);
+}
+
+#footer {
+    background-color: #800000;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 4em;
+}
+
 p {
     color: #8f8f8f;
 }
@@ -121,6 +135,7 @@ section .container .navbar a {
 .about-img-img {
     width: 100%;
     border-radius: 10%;
+    margin: 0 0 4em;
 }
 
 .pic-about {
@@ -149,7 +164,7 @@ section .container .navbar a {
 /*shop*/
 
 .shopy h2 {
-    color: #ffffff;
+    color: var(--bs-yellow);
     font-family: 'virgula-vulgaris';
     font-size: 3em;
     text-align: center;
@@ -170,8 +185,18 @@ section .container .navbar a {
     margin: auto;
 }
 
+.shop__thumb a {
+    color: var(--bs-white);
+    text-decoration: none;
+}
+
 .shop-thumb__img img {
     width: 100%;
+}
+
+.introd {
+    text-align: center;
+    color: #ffffff;
 }
 
 @media (max-width:1028) {
