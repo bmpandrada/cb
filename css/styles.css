@@ -9,6 +9,7 @@ span {
 #title {
     background-color: #800000;
     color: #fff;
+    height: 100vh;
 }
 
 .start {
@@ -23,6 +24,7 @@ span {
     font-family: 'virgula-vulgaris';
     line-height: 1.5;
     font-size: 2em;
+    margin: .5em 0;
 }
 
 #testimonials h2 {
@@ -73,6 +75,7 @@ section .container .navbar a {
 
 .title-image {
     width: 100%;
+    margin-top: 2em;
 }
 
 #features {
