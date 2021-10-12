@@ -60,6 +60,14 @@ p {
     color: #8f8f8f;
 }
 
+.navbar-toggler .icon {
+    color: var(--bs-yellow);
+}
+
+.navbar-toggler .icon:hover {
+    color: var(--bs-maroon);
+}
+
 
 /*.container .navbar {
     padding-bottom: 4rem;
