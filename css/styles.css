@@ -22,8 +22,6 @@ span {
 #title {
     background-color: #800000;
     color: #fff;
-    padding: 0 0 15%;
-    
 }
 
 #title .container-fluid {
@@ -49,7 +47,7 @@ span {
 }
 
 #cta {
-    padding: 13% 35%;
+    padding: 13% 0;
     text-align: center;
     color: var(--bs-yellow);
 }
@@ -92,11 +90,11 @@ section .container .navbar a {
 
 .title-image {
     width: 100%;
-    margin-top: 2em;
+    margin-top: 3em;
 }
 
 #features {
-    padding: 3% 15%;
+    padding: 10% 15%;
     text-align: center;
 }
 
@@ -205,9 +203,8 @@ section .container .navbar a {
 }
 
 .social-icon {
-    margin: 1em .9em;
-    color: var(--bs-white);
-    ;
+    margin: .5em .9em 0;
+    color: var(--bs-yellow);
 }
 
 @media (max-width:1028) {
@@ -240,12 +237,12 @@ section .container .navbar a {
         font-size: 2em;
         font-family: 'virgula-vulgaris';
         text-align: center;
-        margin-bottom: 1em;
+        margin-bottom: .5em;
     }
     .title-image {
         width: 100%;
         text-align: center;
-        margin: 1em 0;
+        margin: 1em 0 0;
         z-index: 12;
     }
     .about-img-img {
