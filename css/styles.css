@@ -2,6 +2,16 @@ body {
     font-family: Virgula Vulgaris;
 }
 
+.bg {
+    background-image: url("/TinDog-Start-master/images/postcardchewy.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 h1,
 h2 {
     font-family: 'virgula-vulgaris';
@@ -28,10 +38,16 @@ span {
     padding: 3% 15%;
 }
 
+.title-image {
+    width: 100%;
+    margin-top: 3em;
+}
+
 #title h1 {
     line-height: 1.5;
     font-size: 1.5em;
     margin: 1em 0;
+    text-align: center;
 }
 
 #testimonials h2 {
@@ -86,11 +102,6 @@ section .container .navbar a {
     font-size: 1.2rem;
     font-family: 'Montserrat-black';
     text-align: center;
-}
-
-.title-image {
-    width: 100%;
-    margin-top: 3em;
 }
 
 #features {
@@ -204,7 +215,7 @@ section .container .navbar a {
 
 .social-icon {
     margin: .5em .9em 0;
-    color: var(--bs-yellow);
+    color: var(--bs-white);
 }
 
 @media (max-width:1028) {
