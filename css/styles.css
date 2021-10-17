@@ -3,7 +3,7 @@ body {
 }
 
 .bg-image {
-    background-image: url("/cb/images/postcardchewy.jpg");
+    background-image: url("/TinDog-Start-master/images/postcardchewy.jpg");
     /* Full height */
     height: 100%;
     /* Center and scale the image nicely */
@@ -39,8 +39,10 @@ span {
 }
 
 .title-image {
-    width: 100%;
-    margin-top: 3em;
+    width: 120%;
+    text-align: center;
+    margin: .5em 0 0;
+    z-index: 12;
 }
 
 #title h1 {
@@ -249,12 +251,6 @@ section .container .navbar a {
         font-family: 'virgula-vulgaris';
         text-align: center;
         margin-bottom: .5em;
-    }
-    .title-image {
-        width: 100%;
-        text-align: center;
-        margin: 1em 0 0;
-        z-index: 12;
     }
     .about-img-img {
         width: 50%;
