@@ -3,7 +3,7 @@ body {
 }
 
 .bg-image {
-    background-image: url("/TinDog-Start-master/images/postcardchewy.jpg");
+    background-image: url("cb/css/images/postcardchewy.jpg");
     /* Full height */
     height: 100%;
     /* Center and scale the image nicely */
