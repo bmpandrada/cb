@@ -1,8 +1,9 @@
 body {
     font-family: Virgula Vulgaris;
 }
+
 .bg-image {
-    background-image: url("/cb/images/postcardchewy.jpg");
+    background-image: url("/TinDog-Start-master/images/postcardchewy.jpg");
     /* Full height */
     height: 100%;
     /* Center and scale the image nicely */
@@ -45,7 +46,7 @@ span {
 }
 
 #title h1 {
-    line-height: 1.2;
+    line-height: 1.5;
     font-size: 1.5em;
     margin: 1em 0;
     text-align: left;
@@ -106,8 +107,14 @@ section .container .navbar a {
 }
 
 #features {
-    padding: 10% 15%;
+    padding: 5% 15%;
     text-align: center;
+}
+
+#features h2 {
+    font-size: 3em;
+    margin-bottom: 1em;
+    color: maroon;
 }
 
 .feature-box {
@@ -147,8 +154,7 @@ section .container .navbar a {
 }
 
 .about-img-img {
-    width: 100%;
-    border-radius: 10%;
+    width: 70%;
     margin: 0 0 4em;
 }
 
@@ -183,6 +189,8 @@ section .container .navbar a {
     font-size: 3em;
     text-align: center;
     margin-bottom: .5em;
+    font-style: oblique;
+    text-decoration: underline;
 }
 
 #shop {
@@ -212,6 +220,7 @@ section .container .navbar a {
 .introd {
     text-align: center;
     color: #ffffff;
+    font-size: 1.4em;
 }
 
 .social-icon {
@@ -225,7 +234,7 @@ section .container .navbar a {
     }
     .shop-thumb__img img,
     .about-img {
-        width: 50%;
+        width: 70%;
     }
 }
 
@@ -252,7 +261,7 @@ section .container .navbar a {
         margin-bottom: .5em;
     }
     .about-img-img {
-        width: 50%;
+        width: 80%;
         border-radius: 10%;
     }
     .shop-thumb__img img {
